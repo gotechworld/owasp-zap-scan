@@ -16,6 +16,6 @@ jobs:
         with:
           token: ${{ secrets.VCS_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
-          target: 'https://www.zaproxy.org/'
+          target: 'http://testphp.vulnweb.com/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
